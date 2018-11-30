@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_when_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="when item name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_when_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="category"
+        android:textColor="#4682B4"
+        android:padding="3dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Buy Date" />
+        <TextView
+            android:id="@+id/tv_buy_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XX/XX/XX"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_is_opened"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Opened?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Open Date" />
+        <TextView
+            android:id="@+id/tv_open_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XX/XX/XX"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Expire" />
+        <TextView
+            android:id="@+id/tv_expire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XX/XX/XX"/>
+    </LinearLayout>
+
+
+</LinearLayout>
